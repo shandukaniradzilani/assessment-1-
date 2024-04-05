@@ -7,7 +7,7 @@ This Android app demonstrates a simple functionality related to famous people an
 - Displays a list of famous people and their ages.
 - Allows users to input an age and find out which famous person lived to that age or longer.
 
-## Prerequisites
+## Requirements
 
 - Android Studio (latest version)
 - Android SDK
@@ -26,15 +26,11 @@ This Android app demonstrates a simple functionality related to famous people an
 3. Click the "Submit" button.
 4. The app will display the name of a famous person who lived to that age or longer.
 
-## Contributing
-
-Contributions are welcome! If you'd like to improve this app, feel free to submit a pull request.
-
 ## Understanding the Code
 
-Our app revolves around `MainActivity`. This is where all the magic happens! It's in charge of managing user interactions and refreshing the UI.
+The app revolves around `MainActivity`. It's in charge of managing user interactions and refreshing the UI.
 
-Inside `MainActivity`, we've got a few key players:
+Inside `MainActivity`, there are a few key players:
 
 - `ageInput`: This is an `EditText` field. Users can type in an age here.
 - `submitButton`: This is a `Button`. When users click it, the app checks the age they typed into `ageInput`. Then, it updates the `resultss` TextView to show the name of a famous person who lived to that age or longer.
@@ -43,6 +39,11 @@ Inside `MainActivity`, we've got a few key players:
 When users click the `submitButton`, it gets to work. It looks at the age the user typed in and updates the `resultss` TextView based on that age. If the age isn't valid (less than 10 or greater than 100), it changes the text on the `submitButton` to ask the user to type in a valid age.
 
 The `clearButton` has a simpler job. When users click it, it clears out the `ageInput` field. It also shows a quick toast message to let the user know that the input has been cleared.
+
+## Performance 
+This application is designed lightweight and swift.
+
+## 
 
 ## License
 
